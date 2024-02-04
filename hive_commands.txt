@@ -1,0 +1,212 @@
+set hive.execution.engine=mr;
+set hive.fetch.task.conversion=minimal;
+use rp3752_nyu_edu;
+show tables
+;
+create external table h1 (trump_favour float, biden_favour float, dem_favour float, repub_favour float, date DATE, comment string) row format delimited fields terminated by ',' location '/user/rp3752_nyu_edu/project/hive/reddit';
+create external table h1 (trump_favour float, biden_favour float, dem_favour float, repub_favour float, date string, comment string) row format delimited fields terminated by ',' location '/user/rp3752_nyu_edu/project/hive/reddit';
+set hive.execution.engine=mr;
+set hive.fetch.task.conversion=minimal;
+use rp3752_nyu_edu;
+show tables
+;
+create external table h1 (trump_favour float, biden_favour float, dem_favour float, repub_favour float, year date , comment string) row format delimited fields terminated by ',' location '/user/rp3752_nyu_edu/project/hive/reddit';
+show tables
+;
+describe formatted h1;
+select * from h1 limit 5;
+drop table h1;
+select * from h1 limit 5;
+create external table h1 (trump_favour float, biden_favour float, dem_favour float, repub_favour float, date string , comment string) row format delimited fields terminated by ',' location '/user/rp3752_nyu_edu/project/hive/reddit';
+create external table h1 (trump_favour float, biden_favour float, dem_favour float, repub_favour float, year string , comment string) row format delimited fields terminated by ',' location '/user/rp3752_nyu_edu/project/hive/reddit';
+select * from h1 limit 5;
+set hive.execution.engine=mr;
+set hive.fetch.task.conversion=minimal;
+use rp3752_nyu_edu;
+ALTER TABLE h1 ADD COLUMN converted_date DATE;
+show tables;
+CREATE TABLE new_table AS
+SELECT
+  *,
+  TO_DATE(FROM_UNIXTIME(UNIX_TIMESTAMP(date_column, 'MM/dd/yyyy'))) AS converted_date
+FROM
+  your_table;
+CREATE TABLE h2 AS
+SELECT
+  *,
+  TO_DATE(FROM_UNIXTIME(UNIX_TIMESTAMP(year, 'MM/dd/yyyy'))) AS converted_date
+FROM
+  h1;
+select * from h2 limit 5;
+ALTER TABLE h2 DROP COLUMN year;
+SELECT
+  converted_date,
+  AVG(trump_favour) AS aggregate_trump_favour,
+  AVG(biden_favour) AS aggregate_biden_favour,
+  AVG(dem_favour) AS aggregate_dem_favour,
+  AVG(repub_favour) AS aggregate_repub_favour
+FROM
+  h2
+GROUP BY
+  converted_date
+ORDER BY
+  converted_date;
+CREATE TABLE IF NOT EXISTS final_scores AS
+SELECT
+  converted_date as date,
+  AVG(trump_favour) AS aggregate_trump_favour,
+  AVG(biden_favour) AS aggregate_biden_favour,
+  AVG(dem_favour) AS aggregate_dem_favour,
+  AVG(repub_favour) AS aggregate_repub_favour
+FROM
+  h2
+GROUP BY
+  converted_date
+ORDER BY
+  converted_date;
+CREATE TABLE IF NOT EXISTS final_scores AS
+SELECT
+  converted_date as day,
+  AVG(trump_favour) AS aggregate_trump_favour,
+  AVG(biden_favour) AS aggregate_biden_favour,
+  AVG(dem_favour) AS aggregate_dem_favour,
+  AVG(repub_favour) AS aggregate_repub_favour
+FROM
+  h2
+GROUP BY
+  converted_date
+ORDER BY
+  converted_date;
+select * from final_scores limit 5;
+select * from final_scores;
+set hive.execution.engine=mr;
+set hive.fetch.task.conversion=minimal;
+use rp3752_nyu_edu;
+show tables;
+create external table poll (candidate string, score float, party string, day date)
+row format delimited fields terminated by ','
+location '/user/rp3752_nyu_edu/project/hive/polls'
+TBLPROPERTIES ("skip.header.line.count"="1");
+select * from polls limit 5;
+show tables;
+select * from poll limit 5;
+SELECT
+  day,
+  AVG(score) AS score,
+FROM
+  poll
+WHERE party = 'DEM'
+GROUP BY
+  day
+ORDER BY
+  day;
+SELECT
+  day,
+  AVG(score) AS score
+FROM
+  poll
+WHERE party = 'DEM'
+GROUP BY
+  day
+ORDER BY
+  day;
+SELECT
+  day,
+  AVG(score)/100 AS score
+FROM
+  poll
+WHERE party = 'DEM'
+GROUP BY
+  day
+ORDER BY
+  day;
+CREATE TABLE IF NOT EXISTS dem_poll AS
+SELECT
+  day,
+  AVG(score)/100 AS score
+FROM
+  poll
+WHERE party = 'DEM'
+GROUP BY
+  day
+ORDER BY
+  day;
+select * from dem_poll limit 5;
+CREATE TABLE IF NOT EXISTS rep_poll AS
+SELECT
+  day,
+  AVG(score)/100 AS score
+FROM
+  poll
+WHERE party = 'REP'
+GROUP BY
+  day
+ORDER BY
+  day;
+CREATE TABLE IF NOT EXISTS trump_poll AS
+SELECT
+  day,
+  AVG(score)/100 AS score
+FROM
+  poll
+WHERE candidate = 'Donald Trump'
+GROUP BY
+  day
+ORDER BY
+  day;
+CREATE TABLE IF NOT EXISTS biden_poll AS
+SELECT
+  day,
+  AVG(score)/100 AS score
+FROM
+  poll
+WHERE candidate = 'Joe Biden'
+GROUP BY
+  day
+ORDER BY
+  day;
+select * from rep_poll limit 5;
+select * from trump_poll limit 5;
+select * from biden_poll limit 5;
+show tables;
+set hive.execution.engine=mr;
+set hive.fetch.task.conversion=minimal;
+use rp3752_nyu_edu;
+show tables
+;
+create external table news (trump float, biden float, democrats float, republicans float, source string, day date)
+row format delimited fields terminated by ','
+location '/user/rp3752_nyu_edu/project/hive/news'
+TBLPROPERTIES ("skip.header.line.count"="1");
+select * from news limit 5;
+SELECT
+  day,
+  AVG(trump) AS trump,
+  AVG(biden) AS biden,
+  AVG(democrats) AS democrats,
+  AVG(republicans) AS republicans
+FROM
+  news
+GROUP BY
+  day
+ORDER BY
+  day;
+CREATE TABLE IF NOT EXISTS hive_news AS
+SELECT
+  day,
+  AVG(trump) AS trump,
+  AVG(biden) AS biden,
+  AVG(democrats) AS democrats,
+  AVG(republicans) AS republicans
+FROM
+  news
+GROUP BY
+  day
+ORDER BY
+  day;
+select * from hive_news;
+history
+;
+ls
+;
+pwd;

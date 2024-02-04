@@ -1,0 +1,154 @@
+270toWin	579
+ABC News	1760
+ABP Live	2
+AOL	290
+Al Jazeera English	2317
+Argus Media	289
+Arkansas Online	272
+Austin American-Statesman	2
+Axios	590
+BBC	300
+BBC.com	1166
+Bloomberg	342
+Brookings Institution	3
+Business Insider	580
+CBS Minnesota	302
+CBS News	1193
+CBS Philly	298
+CNBC	873
+CNBCTV18	290
+CNN	6469
+Carnegie Endowment for International Peace	2
+Carolina Public Press	288
+Catholic University of America The Tower	290
+Charlotte Post	1
+Chatham House	290
+Common Dreams	290
+Council on Foreign Relations	297
+Covers	13
+Daily Montanan	290
+Democracy Docket	290
+Deseret News	576
+Detroit Free Press	24
+Duncan Banner	211
+EL PAÍS USA	2
+EU Reporter	10
+European Council on Foreign Relations	290
+FRANCE 24 English	11
+Fair Observer	290
+Financial Times	2629
+Firstpost	290
+FiveThirtyEight	1
+Florida Phoenix	288
+Fortune	295
+Fox News	582
+Freestonecountytimesonline	288
+Geopolitical Intelligence Services AG	1
+Georgia Recorder	1
+Globely News	288
+Goldman Sachs	289
+Haaretz	2
+Hindustan Times	1
+IFRI	6
+India Today	289
+Iowa Capital Dispatch	290
+KABC-TV	3
+KFF	290
+KWQC	290
+Kansas Reflector	2
+Louisana Illuminator	3
+MSNBC	277
+Markets Insider	1
+Maryland Matters	290
+Meridian Star	1
+Meta Store	289
+Metro US	1
+Michigan Advance	12
+Minnesota Reformer	1
+Mint	1191
+Moneycontrol	289
+Montana Free Press	289
+Morning Consult	869
+NBC Chicago	288
+NBC News	2036
+NHK WORLD	289
+NJ Spotlight News	2
+NPR	594
+Nasdaq	2
+National Review	2
+Nebraska Examiner	293
+New Jersey Monitor	2
+Newsweek	3
+Nikkei Asia	290
+Northeastern University	288
+Ohio Capital Journal	290
+Oregon Capital Chronicle	290
+Orlando Sentinel	2
+PBS NewsHour	1179
+PEOPLE	1
+POLITICO	1563
+Pew Research Center	290
+PinkNews	289
+Reuters	9319
+SBS News	50
+SC Times	288
+Salon	3
+Source New Mexico	290
+South China Morning Post	4
+Spectrum News 1	3
+TIME	578
+Teen Vogue	289
+Temple University News	268
+The Action Network	4
+The American Prospect	288
+The Arizona Republic	288
+The Armenian Mirror-Spectator	1
+The Associated Press	4956
+The Atlantic	573
+The Cincinnati Enquirer	288
+The Commercial Dispatch	1
+The Conversation	1135
+The Conversation Indonesia	25
+The Conversation United States	176
+The Economist	4
+The Fulcrum	290
+The Guardian US	1159
+The Hill	1740
+The Indian Express	289
+The Japan Times	4
+The Jerusalem Post	290
+The Nation	579
+The National	266
+The National Law Review	289
+The New Republic	577
+The New York Times	3056
+The Telegraph	5
+The Texas Tribune	574
+The Times	23
+The Times of Israel	289
+The Washington Post	2047
+The Week	3
+Tufts University	3
+U.S. News & World Report	587
+UBS	289
+UC Berkeley	290
+UMD College of Education	289
+USA TODAY	1757
+Voice of America - VOA News	11
+Vox.com	870
+WBAL TV Baltimore	3
+WION	282
+WKMG News 6 & ClickOrlando	2
+WLRN	290
+WPLG Local 10	289
+WPVI-TV	290
+WSLS 10	1
+Wake County Government (.gov)	289
+Wisconsin Public Radio	289
+Yahoo Finance	868
+Yahoo News	585
+Yahoo News Canada	1
+cleveland.com	290
+coloradopolitics.com	293
+openDemocracy	290
+wfit	290

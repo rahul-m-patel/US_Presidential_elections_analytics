@@ -1,0 +1,32 @@
+App Panel	26
+Email	2
+Email/Online Ad	1
+IVR	6
+IVR/Live Phone/Online Panel/Text-to-Web	2
+IVR/Live Phone/Text-to-Web	1
+IVR/Live Phone/Text/Online Panel/Email	2
+IVR/Online Panel	49
+IVR/Online Panel/Email	17
+IVR/Online Panel/Text-to-Web	18
+IVR/Online Panel/Text-to-Web/Email	11
+IVR/Text	9
+IVR/Text-to-Web	11
+IVR/Text-to-Web/Email	6
+Live Phone	100
+Live Phone/Email	2
+Live Phone/Online Panel	11
+Live Phone/Online Panel/Mail-to-Web	1
+Live Phone/Online Panel/Text	1
+Live Phone/Probability Panel	2
+Live Phone/Text-to-Web	7
+Live Phone/Text-to-Web/Email	1
+Live Phone/Text-to-Web/Online Ad	1
+Live Phone/Text/Online Ad	2
+Mail-to-Web/Mail-to-Phone	2
+Online Panel	666
+Online Panel/Email	7
+Online Panel/Text-to-Web	15
+Probability Panel	32
+Text	1
+Text-to-Web	7
+Text-to-Web/Online Ad	6

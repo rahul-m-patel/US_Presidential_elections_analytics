@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='final_scores (rp3752_nyu_edu.final_scores) (rp3752_nyu_edu)' inline='true' name='federated.1beh7xc1bwfimo14e5g170q13k3o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452'>
+            <connection authentication='yes' authentication-type='2' class='hadoophive' connection-type='2' dbname='' odbc-connect-string-extras='' one-time-sql='' port='10000' schema='rp3752_nyu_edu' server='localhost' sslcert='' sslmode='' transport-type='1' username='rp3752_nyu_edu'>
+              <connection-customization class='hadoophive' enabled='false' version='18.1'>
+                <vendor name='hadoophive' />
+                <driver name='hadoophive' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='yes' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_COLLECT_TABLE_STATISTICS' value='no' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUALITY_JOINS_ONLY' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_FORCE_COUNT_FOR_NUMBEROFRECORDS' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_JDBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='yes' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='yes' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_PERSIST_SQL_RELATION_ON_LEAF_CONNECTION' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_CAST_MONEY_AS_NUMERIC' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_MAKE_DOMAIN_PREDICATE' value='no' />
+                  <customization name='CAP_QUERY_INLINE_COMPLEX_GROUPBYS_IN_SELECTS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_MINMAX_FORCE_GROUPBYS' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_OUTER_JOIN_CONDITION_NO_TRIVIAL' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP_ALTERNATIVE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TAGS_IN_SQL_TEXT' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_EXCEPT_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION_STRINGS' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_RENAME_TABLE_USE_LEAF_CONNECTION_DIALECT' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_SCHEMAS_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_TABLES_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='biden_poll' table='[rp3752_nyu_edu].[biden_poll]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='rep_poll' table='[rp3752_nyu_edu].[rep_poll]' type='table' />
+          <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='biden_poll' table='[rp3752_nyu_edu].[biden_poll]' type='table' />
+          <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='dem_poll' table='[rp3752_nyu_edu].[dem_poll]' type='table' />
+          <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='final_scores' table='[rp3752_nyu_edu].[final_scores]' type='table' />
+          <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='hive_news' table='[rp3752_nyu_edu].[hive_news]' type='table' />
+          <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='trump_poll' table='[rp3752_nyu_edu].[trump_poll]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[aggregate_biden_favour]' value='[final_scores].[aggregate_biden_favour]' />
+          <map key='[aggregate_dem_favour]' value='[final_scores].[aggregate_dem_favour]' />
+          <map key='[aggregate_repub_favour]' value='[final_scores].[aggregate_repub_favour]' />
+          <map key='[aggregate_trump_favour]' value='[final_scores].[aggregate_trump_favour]' />
+          <map key='[biden]' value='[hive_news].[biden]' />
+          <map key='[day (biden_poll)]' value='[biden_poll].[day]' />
+          <map key='[day (dem_poll)]' value='[dem_poll].[day]' />
+          <map key='[day (final_scores)]' value='[final_scores].[day]' />
+          <map key='[day (hive_news)]' value='[hive_news].[day]' />
+          <map key='[day (trump_poll)]' value='[trump_poll].[day]' />
+          <map key='[day]' value='[rep_poll].[day]' />
+          <map key='[democrats]' value='[hive_news].[democrats]' />
+          <map key='[republicans]' value='[hive_news].[republicans]' />
+          <map key='[score (biden_poll)]' value='[biden_poll].[score]' />
+          <map key='[score (dem_poll)]' value='[dem_poll].[score]' />
+          <map key='[score (trump_poll)]' value='[trump_poll].[score]' />
+          <map key='[score]' value='[rep_poll].[score]' />
+          <map key='[trump]' value='[hive_news].[trump]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[rep_poll]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[score]</local-name>
+            <parent-name>[rep_poll]</parent-name>
+            <remote-alias>score</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[day (biden_poll)]</local-name>
+            <parent-name>[biden_poll]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[score (biden_poll)]</local-name>
+            <parent-name>[biden_poll]</parent-name>
+            <remote-alias>score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[day (dem_poll)]</local-name>
+            <parent-name>[dem_poll]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[score (dem_poll)]</local-name>
+            <parent-name>[dem_poll]</parent-name>
+            <remote-alias>score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[day (final_scores)]</local-name>
+            <parent-name>[final_scores]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aggregate_trump_favour</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aggregate_trump_favour]</local-name>
+            <parent-name>[final_scores]</parent-name>
+            <remote-alias>aggregate_trump_favour</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aggregate_biden_favour</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aggregate_biden_favour]</local-name>
+            <parent-name>[final_scores]</parent-name>
+            <remote-alias>aggregate_biden_favour</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aggregate_dem_favour</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aggregate_dem_favour]</local-name>
+            <parent-name>[final_scores]</parent-name>
+            <remote-alias>aggregate_dem_favour</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aggregate_repub_favour</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aggregate_repub_favour]</local-name>
+            <parent-name>[final_scores]</parent-name>
+            <remote-alias>aggregate_repub_favour</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[day (hive_news)]</local-name>
+            <parent-name>[hive_news]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trump</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[trump]</local-name>
+            <parent-name>[hive_news]</parent-name>
+            <remote-alias>trump</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biden</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biden]</local-name>
+            <parent-name>[hive_news]</parent-name>
+            <remote-alias>biden</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>democrats</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[democrats]</local-name>
+            <parent-name>[hive_news]</parent-name>
+            <remote-alias>democrats</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>republicans</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[republicans]</local-name>
+            <parent-name>[hive_news]</parent-name>
+            <remote-alias>republicans</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[day (trump_poll)]</local-name>
+            <parent-name>[trump_poll]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[score (trump_poll)]</local-name>
+            <parent-name>[trump_poll]</parent-name>
+            <remote-alias>score</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>4</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:aggregate_biden_favour:qk]&quot;' value='Biden  Favorability' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:aggregate_trump_favour:qk]&quot;' value='Reddit Trump Favorability' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:score (trump_poll):qk]&quot;' value='Trump Poll' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:trump:qk]&quot;' value='Trump News' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_biden_favour:qk]&quot;' value='BidenReddit' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_dem_favour:qk]&quot;' value='DemPolls' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_repub_favour:qk]&quot;' value='RepublicansReddit' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_trump_favour:qk]&quot;' value='Trump Reddit' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:biden:qk]&quot;' value='BidenNews' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:democrats:qk]&quot;' value='DemNews' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:republicans:qk]&quot;' value='Republicans News' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (biden_poll):qk]&quot;' value='Biden Polls' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (dem_poll):qk]&quot;' value='DemReddit' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (trump_poll):qk]&quot;' value='Trump Polls' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score:qk]&quot;' value='RepublicanPoll' />
+          <alias key='&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:trump:qk]&quot;' value='News Trump' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='biden_poll' datatype='table' name='[__tableau_internal_object_id__].[biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='dem_poll' datatype='table' name='[__tableau_internal_object_id__].[dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='final_scores' datatype='table' name='[__tableau_internal_object_id__].[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='hive_news' datatype='table' name='[__tableau_internal_object_id__].[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='rep_poll' datatype='table' name='[__tableau_internal_object_id__].[rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='trump_poll' datatype='table' name='[__tableau_internal_object_id__].[trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250]' role='measure' type='quantitative' />
+      <column caption='Aggregate Biden Favour' datatype='real' name='[aggregate_biden_favour]' role='measure' type='quantitative' />
+      <column caption='Aggregate Dem Favour' datatype='real' name='[aggregate_dem_favour]' role='measure' type='quantitative' />
+      <column caption='Aggregate Repub Favour' datatype='real' name='[aggregate_repub_favour]' role='measure' type='quantitative' />
+      <column caption='Aggregate Trump Favour' datatype='real' name='[aggregate_trump_favour]' role='measure' type='quantitative' />
+      <column caption='Biden' datatype='real' name='[biden]' role='measure' type='quantitative' />
+      <column caption='Day (Biden Poll)' datatype='date' name='[day (biden_poll)]' role='dimension' type='ordinal' />
+      <column caption='Day (Dem Poll)' datatype='date' name='[day (dem_poll)]' role='dimension' type='ordinal' />
+      <column caption='Day (Final Scores)' datatype='date' name='[day (final_scores)]' role='dimension' type='ordinal' />
+      <column caption='Day (Hive News)' datatype='date' name='[day (hive_news)]' role='dimension' type='ordinal' />
+      <column caption='Day (News)' datatype='date' name='[day (news)]' role='dimension' type='ordinal' />
+      <column caption='Day (Trump Poll)' datatype='date' name='[day (trump_poll)]' role='dimension' type='ordinal' />
+      <column caption='Day' datatype='date' name='[day]' role='dimension' type='ordinal' />
+      <column caption='Democrats' datatype='real' name='[democrats]' role='measure' type='quantitative' />
+      <column caption='Republicans' datatype='real' name='[republicans]' role='measure' type='quantitative' />
+      <column caption='Score (Biden Poll)' datatype='real' name='[score (biden_poll)]' role='measure' type='quantitative' />
+      <column caption='Score (Dem Poll)' datatype='real' name='[score (dem_poll)]' role='measure' type='quantitative' />
+      <column caption='Score (Trump Poll)' datatype='real' name='[score (trump_poll)]' role='measure' type='quantitative' />
+      <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+      <column caption='Trump' datatype='real' name='[trump]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[aggregate_biden_favour]' derivation='Attribute' name='[attr:aggregate_biden_favour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[aggregate_trump_favour]' derivation='Attribute' name='[attr:aggregate_trump_favour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biden]' derivation='Attribute' name='[attr:biden:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[score (biden_poll)]' derivation='Attribute' name='[attr:score (biden_poll):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[score (trump_poll)]' derivation='Attribute' name='[attr:score (trump_poll):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[trump]' derivation='Attribute' name='[attr:trump:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[aggregate_biden_favour]' derivation='Sum' name='[sum:aggregate_biden_favour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[aggregate_dem_favour]' derivation='Sum' name='[sum:aggregate_dem_favour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[aggregate_repub_favour]' derivation='Sum' name='[sum:aggregate_repub_favour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[aggregate_trump_favour]' derivation='Sum' name='[sum:aggregate_trump_favour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biden]' derivation='Sum' name='[sum:biden:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[democrats]' derivation='Sum' name='[sum:democrats:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[republicans]' derivation='Sum' name='[sum:republicans:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[score (biden_poll)]' derivation='Sum' name='[sum:score (biden_poll):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[score (dem_poll)]' derivation='Sum' name='[sum:score (dem_poll):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[score (trump_poll)]' derivation='Sum' name='[sum:score (trump_poll):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[score]' derivation='Sum' name='[sum:score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[trump]' derivation='Sum' name='[sum:trump:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[__tableau_internal_object_id__].[cnt:trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:aggregate_biden_favour:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:biden:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:score (biden_poll):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_dem_favour:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_repub_favour:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (biden_poll):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:score (trump_poll):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_trump_favour:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_biden_favour:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[__tableau_internal_object_id__].[cnt:final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[__tableau_internal_object_id__].[cnt:dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[__tableau_internal_object_id__].[cnt:hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:aggregate_trump_favour:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (dem_poll):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (trump_poll):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[__tableau_internal_object_id__].[cnt:rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[attr:trump:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:trump:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:biden:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:democrats:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:republicans:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[__tableau_internal_object_id__].[cnt:biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='biden_poll' id='biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0'>
+            <properties context=''>
+              <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='biden_poll' table='[rp3752_nyu_edu].[biden_poll]' type='table' />
+            </properties>
+          </object>
+          <object caption='dem_poll' id='dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD'>
+            <properties context=''>
+              <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='dem_poll' table='[rp3752_nyu_edu].[dem_poll]' type='table' />
+            </properties>
+          </object>
+          <object caption='final_scores' id='final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97'>
+            <properties context=''>
+              <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='final_scores' table='[rp3752_nyu_edu].[final_scores]' type='table' />
+            </properties>
+          </object>
+          <object caption='hive_news' id='hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E'>
+            <properties context=''>
+              <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='hive_news' table='[rp3752_nyu_edu].[hive_news]' type='table' />
+            </properties>
+          </object>
+          <object caption='rep_poll' id='rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4'>
+            <properties context=''>
+              <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='rep_poll' table='[rp3752_nyu_edu].[rep_poll]' type='table' />
+            </properties>
+          </object>
+          <object caption='trump_poll' id='trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250'>
+            <properties context=''>
+              <relation connection='hadoophive.1v8r5zu1utcbsm11snz8p1dzn452' name='trump_poll' table='[rp3752_nyu_edu].[trump_poll]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[day]' />
+              <expression op='[day (biden_poll)]' />
+            </expression>
+            <first-end-point object-id='rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4' />
+            <second-end-point object-id='biden_poll (rp3752_nyu_edu.biden_poll)_9D287DB1EDE44739A2B7B1751B1C1EE0' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[day]' />
+              <expression op='[day (dem_poll)]' />
+            </expression>
+            <first-end-point object-id='rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4' />
+            <second-end-point object-id='dem_poll (rp3752_nyu_edu.dem_poll)_EDD4671A31304FFBB5C9A59A7D1742BD' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[day]' />
+              <expression op='[day (final_scores)]' />
+            </expression>
+            <first-end-point object-id='rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4' />
+            <second-end-point object-id='final_scores (rp3752_nyu_edu.final_scores)_B1E354917CB74056B7FDBA52E2480D97' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[day]' />
+              <expression op='[day (hive_news)]' />
+            </expression>
+            <first-end-point object-id='rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4' />
+            <second-end-point object-id='hive_news (rp3752_nyu_edu.hive_news)_945754E278564F8AA196793DAC3B9B2E' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[day]' />
+              <expression op='[day (trump_poll)]' />
+            </expression>
+            <first-end-point object-id='rep_poll (rp3752_nyu_edu.rep_poll)_7FB28056FF2C4227B3B5E0C8E2891DC4' />
+            <second-end-point object-id='trump_poll (rp3752_nyu_edu.trump_poll)_32A7FDD266924B5E9F82955D33668250' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run> Favorability  by polls</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_scores (rp3752_nyu_edu.final_scores) (rp3752_nyu_edu)' name='federated.1beh7xc1bwfimo14e5g170q13k3o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1beh7xc1bwfimo14e5g170q13k3o'>
+            <column caption='Aggregate Biden Favour' datatype='real' name='[aggregate_biden_favour]' role='measure' type='quantitative' />
+            <column caption='Biden' datatype='real' name='[biden]' role='measure' type='quantitative' />
+            <column caption='Day (Biden Poll)' datatype='date' name='[day (biden_poll)]' role='dimension' type='ordinal' />
+            <column caption='Score (Biden Poll)' datatype='real' name='[score (biden_poll)]' role='measure' type='quantitative' />
+            <column caption='Score (Trump Poll)' datatype='real' name='[score (trump_poll)]' role='measure' type='quantitative' />
+            <column-instance column='[aggregate_biden_favour]' derivation='Sum' name='[sum:aggregate_biden_favour:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[biden]' derivation='Sum' name='[sum:biden:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[score (biden_poll)]' derivation='Sum' name='[sum:score (biden_poll):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[score (trump_poll)]' derivation='Sum' name='[sum:score (trump_poll):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[day (biden_poll)]' derivation='Day-Trunc' name='[tdy:day (biden_poll):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1beh7xc1bwfimo14e5g170q13k3o].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (biden_poll):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:aggregate_biden_favour:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:biden:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.1beh7xc1bwfimo14e5g170q13k3o].[tdy:day (biden_poll):qk]' included-values='in-range'>
+            <min>#2022-12-12 00:00:00#</min>
+            <max>#2023-01-12 23:59:59#</max>
+          </filter>
+          <slices>
+            <column>[federated.1beh7xc1bwfimo14e5g170q13k3o].[tdy:day (biden_poll):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (trump_poll):qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.1beh7xc1bwfimo14e5g170q13k3o].[tdy:day (biden_poll):qk]' scope='cols' value='Day' />
+            <format attr='auto-subtitle' class='0' field='[federated.1beh7xc1bwfimo14e5g170q13k3o].[tdy:day (biden_poll):qk]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (biden_poll):qk]' scope='rows' value='Biden' />
+            <format attr='title' class='0' field='[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (trump_poll):qk]' scope='rows' value='Trump' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='43' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1beh7xc1bwfimo14e5g170q13k3o].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f1ce63' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='44' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (biden_poll):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1beh7xc1bwfimo14e5g170q13k3o].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f1ce63' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='45' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (trump_poll):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1beh7xc1bwfimo14e5g170q13k3o].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f1ce63' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (biden_poll):qk] + [federated.1beh7xc1bwfimo14e5g170q13k3o].[sum:score (trump_poll):qk])</rows>
+        <cols>[federated.1beh7xc1bwfimo14e5g170q13k3o].[tdy:day (biden_poll):qk]</cols>
+      </table>
+      <simple-id uuid='{6827CC0C-41D8-44AF-89F7-01A1D6E632D0}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='44' param='[federated.1beh7xc1bwfimo14e5g170q13k3o].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[:Measure Names]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[none:trump:ok]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[yr:day (biden_poll):ok]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[yr:day (final_scores):ok]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[yr:day (hive_news):ok]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[yr:day (news):ok]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[yr:day (trump_poll):ok]</field>
+            <field>[federated.1beh7xc1bwfimo14e5g170q13k3o].[yr:day:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3C163F30-C184-4FB1-81CA-AFBFDC0AEB7C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      kEzt/wFRAv23vSzDVgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

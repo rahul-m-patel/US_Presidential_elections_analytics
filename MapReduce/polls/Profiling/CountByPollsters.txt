@@ -1,0 +1,103 @@
+ABC/Washington Post	4
+ActiVote	1
+Alaska Survey Research	2
+American Pulse	2
+Beacon/Shaw	4
+Bendixen & Amandi International	1
+Benenson	1
+Big Village	8
+Blueprint Polling	12
+Bullfinch	1
+CWS Research	1
+Causeway Solutions	1
+Change Research	5
+Cherry Communications	1
+Clarity	6
+Cygnal	15
+Data Viewpoint	1
+Data for Progress	3
+EPIC/MRA	4
+East Carolina University	3
+Echelon Insights	45
+Elway	1
+Embold Research	1
+Emerson	82
+Florida Atlantic University	1
+Florida Atlantic University/Mainstreet Research	2
+Franklin and Marshall College	2
+GQR	2
+Gonzales Research & Media Services	2
+Gravis Marketing	1
+Harris Poll	10
+HarrisX	12
+HarrisX/Harris Poll	13
+Hart/POS	3
+Ipsos	13
+J.L. Partners	3
+John Zogby Strategies	2
+Kaiser Family Foundation	1
+Leger	2
+Let's Preserve the American Dream	1
+Lord Ashcroft Polls	1
+MRG (Marketing Resource Group)	1
+Marist	1
+Marquette Law School	14
+McLaughlin	31
+Metropolitan Research	1
+Mitchell	1
+Morning Consult	369
+Murphy Nasica & Associates	1
+National Public Affairs	1
+NewsNation/Decision Desk HQ	1
+Noble Predictive Insights	4
+OH Predictive Insights / MBQF	2
+Ohio Northern University Institute for Civics and Public Policy	3
+Opinion Diagnostics	1
+PEM Management Corporation	3
+PPIC	4
+PPP	10
+Praecones Analytica	1
+Premise	25
+Prime Group	8
+Probolsky Research	1
+Project Home Fire	1
+Public Opinion Strategies	14
+Quinnipiac	12
+RMG Research	2
+Rasmussen	23
+Redfield & Wilton Strategies	51
+Remington	2
+Research America	1
+Roanoke College	4
+SSRS	4
+Schoen Cooperman	2
+Selzer	2
+Siena	5
+Siena/NYT	10
+Spry Strategies	2
+St. Anselm	2
+St. Pete Polls	1
+Suffolk	9
+Survey Center on American Life	1
+SurveyUSA	4
+Susquehanna	9
+TIPP	2
+Targoz Market Research	5
+Tarrance	1
+Texas Hispanic Policy Foundation	1
+The Political Matrix/The Listener Group	1
+Trafalgar Group	2
+U. Georgia SPIA	1
+U. Massachusetts - Lowell	5
+U. New Hampshire	2
+U. North Florida	1
+UC Berkeley	3
+Victory Insights	1
+Virginia Commonwealth U.	1
+VoteTXT	1
+WPAi	4
+Wick	2
+YouGov	67
+YouGov Blue	2
+Zogby	2
+co/efficient	1

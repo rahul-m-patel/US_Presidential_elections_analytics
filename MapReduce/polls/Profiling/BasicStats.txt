@@ -1,0 +1,48 @@
+Candidate: Andrew Yang	Min: 5.00, Max: 8.50, Avg: 6.75
+Candidate: Andy Cohen	Min: 4.00, Max: 4.00, Avg: 4.00
+Candidate: Bernard Sanders	Min: 39.80, Max: 47.60, Avg: 43.30
+Candidate: Chris Christie	Min: 15.00, Max: 44.00, Avg: 30.69
+Candidate: Chris Sununu	Min: 43.80, Max: 52.80, Avg: 48.20
+Candidate: Cornel West	Min: 1.00, Max: 9.00, Avg: 3.63
+Candidate: Donald Trump	Min: 18.00, Max: 67.60, Avg: 42.61
+Candidate: Donald Trump Jr.	Min: 49.00, Max: 49.00, Avg: 49.00
+Candidate: Elizabeth Warren	Min: 44.50, Max: 48.00, Avg: 46.25
+Candidate: Elon Reeve Musk	Min: 29.30, Max: 29.30, Avg: 29.30
+Candidate: Gavin Newsom	Min: 32.50, Max: 55.00, Avg: 42.48
+Candidate: Glenn Youngkin	Min: 34.00, Max: 55.00, Avg: 44.20
+Candidate: Gretchen Whitmer	Min: 46.00, Max: 46.20, Avg: 46.10
+Candidate: Hillary Rodham Clinton	Min: 41.00, Max: 43.00, Avg: 42.05
+Candidate: Jerome Michael Segal	Min: 40.00, Max: 40.00, Avg: 40.00
+Candidate: Jill Stein	Min: 0.80, Max: 3.50, Avg: 2.26
+Candidate: Joe Biden	Min: 14.80, Max: 62.50, Avg: 42.20
+Candidate: Josh Hawley	Min: 31.00, Max: 31.00, Avg: 31.00
+Candidate: Kamala Harris	Min: 32.00, Max: 54.00, Avg: 39.95
+Candidate: Kristi Noem	Min: 31.00, Max: 31.00, Avg: 31.00
+Candidate: Larry Hogan	Min: 6.00, Max: 28.00, Avg: 17.00
+Candidate: Lars Mapstead	Min: 4.00, Max: 4.00, Avg: 4.00
+Candidate: Liz Cheney	Min: 11.00, Max: 58.00, Avg: 23.91
+Candidate: Marco Rubio	Min: 37.00, Max: 37.00, Avg: 37.00
+Candidate: Mark Cuban	Min: 20.30, Max: 20.30, Avg: 20.30
+Candidate: Matthew David McConaughey	Min: 11.50, Max: 15.00, Avg: 13.50
+Candidate: Michelle Obama	Min: 45.00, Max: 46.00, Avg: 45.50
+Candidate: Mike Pence	Min: 20.00, Max: 54.00, Avg: 38.25
+Candidate: Mike Pompeo	Min: 32.00, Max: 41.00, Avg: 36.50
+Candidate: Mitt Romney	Min: 22.90, Max: 34.50, Avg: 30.17
+Candidate: Nikki Haley	Min: 19.00, Max: 56.00, Avg: 39.45
+Candidate: Pete Buttigieg	Min: 37.00, Max: 46.00, Avg: 40.67
+Candidate: Philip Murphy	Min: 33.00, Max: 33.00, Avg: 33.00
+Candidate: Rick Scott	Min: 33.00, Max: 33.00, Avg: 33.00
+Candidate: Robert F. Kennedy	Min: 6.70, Max: 42.00, Avg: 14.67
+Candidate: Ron DeSantis	Min: 18.00, Max: 53.00, Avg: 40.57
+Candidate: Taylor Swift	Min: 7.00, Max: 8.30, Avg: 7.65
+Candidate: Ted Cruz	Min: 24.00, Max: 39.00, Avg: 33.33
+Candidate: Tim Scott	Min: 19.00, Max: 46.00, Avg: 36.12
+Candidate: Tom Cotton	Min: 31.00, Max: 31.00, Avg: 31.00
+Candidate: Vivek G. Ramaswamy	Min: 13.00, Max: 45.00, Avg: 33.48
+Party: DEM	Min: 14.80, Max: 62.50, Avg: 41.97
+Party: GRE	Min: 0.80, Max: 3.50, Avg: 2.26
+Party: IND	Min: 1.00, Max: 26.00, Avg: 10.24
+Party: LIB	Min: 4.00, Max: 4.00, Avg: 4.00
+Party: OTH	Min: 5.00, Max: 8.50, Avg: 6.75
+Party: REP	Min: 15.00, Max: 67.60, Avg: 41.82
+Party: UNK	Min: 20.30, Max: 29.30, Avg: 24.80
